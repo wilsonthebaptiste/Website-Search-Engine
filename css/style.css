@@ -40,3 +40,14 @@ body{
 .navButton:hover{
     background-color: var(--alt-color2);
 }
+
+.searchTitles{
+    display: flex;
+    background: var(--alt-color2);
+    margin-top: 3rem;
+    padding: 2rem;
+    justify-content: space-evenly;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: var(--text-color);
+}
