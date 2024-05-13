@@ -34,4 +34,9 @@ body{
     padding: 1rem;
     border-radius: 0.5rem;
     color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.navButton:hover{
+    background-color: var(--alt-color2);
 }
