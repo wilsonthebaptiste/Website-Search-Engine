@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Calistoga&family=Gloria+Hallelujah&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap');
+
 body{
     background-color: #08415C;
 }
 
 :root{
     --bg-color: #CC2936;
+    --text-color: #6B818C;
+    --alt-color1: #F1bf98;
+    --alt-color2: #EEE5E9;
 }
 
 
@@ -15,4 +20,8 @@ body{
     border-radius: 0.5rem;
     justify-content: space-between;
     align-items: center;
+}
+
+.siteTitle{
+    font-size: 3rem;
 }
