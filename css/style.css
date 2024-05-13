@@ -25,4 +25,13 @@ body{
 .siteTitle{
     font-size: 3rem;
     font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+}
+
+.navButton{
+    margin: 0 2rem;
+    background: var(--alt-color1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--text-color);
 }
