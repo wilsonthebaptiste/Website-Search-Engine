@@ -41,7 +41,7 @@ body{
     background-color: var(--alt-color2);
 }
 
-.searchTitles{
+.searchInfo{
     display: flex;
     background: var(--alt-color2);
     margin-top: 3rem;
