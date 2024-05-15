@@ -55,3 +55,7 @@ body{
 .searchBar .movieSearch, button{
     font-size: 1rem;
 }
+
+.movieNumberBar .movieNumberSearch{
+    font-size: 1rem;
+}
