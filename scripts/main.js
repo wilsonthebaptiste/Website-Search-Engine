@@ -9,9 +9,11 @@ $(document).ready(()=>{
            })
            .done((response)=>{
             let movies = response.Search
+            let movieCount = response.totalResults
             $.each(movies, (i, e)=>{
                 let poster = e.Poster
                 console.log("poster", poster)
+                $('#movieSearchNumber').val(movieCount)
             })
         })
     })
@@ -19,6 +21,3 @@ $(document).ready(()=>{
 
 })
 
-
-
-/* know that the response.totalResults will give you the total number of results from the search*/
