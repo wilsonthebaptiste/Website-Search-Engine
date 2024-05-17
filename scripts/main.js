@@ -13,6 +13,7 @@ $(document).ready(()=>{
             $.each(movies, (i, e)=>{
                 let poster = e.Poster
                 console.log("poster", poster)
+                $("#movieList").append(`<img src= "${e.Poster}" alt= "movie poster" />`)
                 $('#movieSearchNumber').val(movieCount)
             })
         })
