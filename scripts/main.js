@@ -8,9 +8,17 @@ $(document).ready(()=>{
             url: `http://www.omdbapi.com/?apikey=ec5f8eb1&s=${userInput}`   
            })
            .done((response)=>{
-            console.log("response", response)
+            let movies = response.Search
+            $.each(movies, (i, e)=>{
+                let poster = e.Poster
+                console.log("poster", poster)
+            })
         })
     })
     
 
 })
+
+
+
+/* know that the response.totalResults will give you the total number of results from the search*/
