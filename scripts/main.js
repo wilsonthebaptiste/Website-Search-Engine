@@ -1,6 +1,8 @@
 $(document).ready(()=>{
 
+
     $('#submit').click(()=>{
+        $("#movieList").empty();
         let userInput = $('#search').val();
         console.log(userInput)
         /*alert(userInput)*/
