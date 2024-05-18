@@ -9,8 +9,9 @@ $(document).ready(()=>{
         /*alert(userInput)*/
         $.ajax({
             url: `http://www.omdbapi.com/?apikey=ec5f8eb1&s=${userInput}&page=${p}`   
-           })
-           .done((response)=>{
+        })
+
+        .done((response)=>{
             console.log(response)
             let movies = response.Search
             let movieCount = response.totalResults
@@ -24,9 +25,18 @@ $(document).ready(()=>{
             })
         })}
         getPages("1")
-        getPages("2")
     })
+})
+
+
+
     
 
-})
+            
+
+        
+ 
+
+
+
 
