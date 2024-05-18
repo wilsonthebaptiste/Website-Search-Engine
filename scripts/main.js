@@ -26,8 +26,6 @@ $(document).ready(()=>{
             })
         })}
         getPages("1")
-        getPages("2")
-        getPages("3")
     })
 })
 
