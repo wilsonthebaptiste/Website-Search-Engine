@@ -12,3 +12,8 @@ As a movie critic for a company, my job is to search movies, see their rating an
 
 User #3: A mobile user on the go
 As a mobile user, I want to quickly search for movies on the go for suggestions of what to watch.
+
+
+
+Possible improvements:
+1. Change the img alt so that it actually displays movie titles instead of "movie poster" as it will be more accessible to blind users.
