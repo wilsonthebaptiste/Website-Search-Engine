@@ -24,7 +24,7 @@ $(document).ready(()=>{
                 console.log("movieYear", movieYear)
                 console.log("poster", poster)
                 if(poster !== "N/A"){
-                    $("#movieList").append(`<img src= "${e.Poster}" alt= "movie poster" />`)
+                    $("#movieList").append(`<img src= "${e.Poster}" alt= "${movieName}" />`)
                     $('#movieSearchNumber').val(movieCount)
                 }
             })
