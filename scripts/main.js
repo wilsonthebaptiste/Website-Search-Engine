@@ -18,6 +18,10 @@ $(document).ready(()=>{
             let movieCount = response.totalResults
             $.each(movies, (i, e)=>{
                 let poster = e.Poster
+                let  movieName = e.Title
+                let movieYear = e.Year
+                console.log("movieName", movieName)
+                console.log("movieYear", movieYear)
                 console.log("poster", poster)
                 if(poster !== "N/A"){
                     $("#movieList").append(`<img src= "${e.Poster}" alt= "movie poster" />`)
