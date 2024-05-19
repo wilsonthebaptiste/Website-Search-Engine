@@ -91,3 +91,8 @@ body{
     margin: 1rem;
     color: var(--alt-color2);
 }
+
+.pageArrowIcons i:hover{
+    color: var(--alt-color1);
+    cursor: pointer;
+}
