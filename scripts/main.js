@@ -35,6 +35,12 @@ $('#fwdArrow').click(() => {
    console.log(pageNumber)
 })
 
+$('#backArrow').click(() => {
+    $("#movieList").empty()
+   pageNumber -=1;
+   getPages(pageNumber)
+   console.log(pageNumber)
+})
 
 })
 
