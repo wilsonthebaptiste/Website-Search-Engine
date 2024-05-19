@@ -59,3 +59,20 @@ body{
 .movieNumberBar .movieNumberSearch{
     font-size: 1rem;
 }
+
+.movieList{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background: var(--alt-color1);
+    gap: 1rem;
+    border-radius: 0.25rem;
+    border: solid 1rem var(--alt-color1);
+}
+
+.movieList img{
+ width: 100%;
+ height: 100%;
+ box-shadow:.5rem .5rem rgba(0, 0, 0, 0.7);
+}
