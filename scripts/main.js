@@ -25,14 +25,13 @@ $(document).ready(()=>{
                 }
             })
         })}
-        getPages("1")
+        getPages(1)
     })
-
+let pageNumber = 1
 $('#fwdArrow').click(() => {
     $("#movieList").empty()
-    let pageNumber = 1;
    pageNumber +=1;
-   getPages(toString(pageNumber))
+   getPages(pageNumber)
    console.log(pageNumber)
 })
 
