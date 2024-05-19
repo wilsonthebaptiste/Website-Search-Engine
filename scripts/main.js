@@ -27,7 +27,18 @@ $(document).ready(()=>{
         })}
         getPages("1")
     })
+
+$('#fwdArrow').click(() => {
+    $("#movieList").empty()
+    let pageNumber = 1;
+   pageNumber +=1;
+   getPages(toString(pageNumber))
+   console.log(pageNumber)
 })
+
+
+})
+
 
 
 
