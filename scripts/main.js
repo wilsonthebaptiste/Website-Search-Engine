@@ -27,8 +27,8 @@ $(document).ready(()=>{
                     $("#movieList").append(`<div class ="moviePoster">
                     <img src= "${e.Poster}" alt= "${movieName}" />
                     <div class="movieInfo">
-                    <p1 class="movieName> ${movieName}</p1>
-                    <p2 class="movieYear"> ${movieYear}</p2>
+                    <p class="movieName"> ${movieName}</p>
+                    <p class="movieYear"> ${movieYear}</p>
                     </div>
                     </div>`)
                     $('#movieSearchNumber').val(movieCount)
