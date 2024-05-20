@@ -13,18 +13,24 @@ $(document).ready(()=>{
         })
 
         .done((response)=>{
-            console.log(response)
+            /*console.log(response)*/ /*This console log is to check if resposne is successful*/
             let movies = response.Search
             let movieCount = response.totalResults
             $.each(movies, (i, e)=>{
                 let poster = e.Poster
                 let  movieName = e.Title
                 let movieYear = e.Year
-                console.log("movieName", movieName)
+                /*console.log("movieName", movieName)
                 console.log("movieYear", movieYear)
-                console.log("poster", poster)
+                console.log("poster", poster)*/ /* these console logs are to check if data is pulled from array successfully*/
                 if(poster !== "N/A"){
-                    $("#movieList").append(`<img src= "${e.Poster}" alt= "${movieName}" />`)
+                    $("#movieList").append(`<div class ="moviePoster">
+                    <img src= "${e.Poster}" alt= "${movieName}" />
+                    <div class="movieInfo">
+                    <p1 class="movieName> ${movieName}</p1>
+                    <p2 class="movieYear"> ${movieYear}</p2>
+                    </div>
+                    </div>`)
                     $('#movieSearchNumber').val(movieCount)
                 }
             })
