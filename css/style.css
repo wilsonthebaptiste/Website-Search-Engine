@@ -97,6 +97,12 @@ body{
     height: auto;
 }
 
+.movieInfo .movieName, .movieYear{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .pageArrows {
     display: flex;
     align-items: center;
