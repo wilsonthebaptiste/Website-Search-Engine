@@ -88,6 +88,11 @@ body{
     position: relative;
 }
 
+.moviePoster img{
+z-index: 2;
+position: inherit;
+}
+
 .movieInfo{
     background: yellow;
     position: absolute;
@@ -95,6 +100,7 @@ body{
     left: 0;
     width: 100%;
     height: auto;
+    z-index: 1;
 }
 
 .movieInfo .movieName, .movieYear{
