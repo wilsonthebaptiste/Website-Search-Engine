@@ -60,6 +60,11 @@ body{
     font-size: 1rem;
 }
 
+.movieNumberBar input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
+-webkit-appearance: none;
+margin: 0;
+}
+
 .movieList{
     margin: 1rem 0;
     display: grid;
