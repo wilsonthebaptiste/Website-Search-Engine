@@ -156,3 +156,45 @@ position: inherit;
      width: 70%;   
     }
 }
+
+@media(max-width: 480px){
+    .siteTitle {
+        font-size: 60%;
+    }
+    
+    .navButton{
+        margin: 0 8px;
+    }
+
+    .searchContainer{
+        margin-left: -16px;
+    }
+
+    .movieSearchTitle{
+        font-size: 70%;
+    }
+
+    .searchBar .movieSearch{
+        width: 60%;   
+       }
+
+      .searchBar button{
+        font-size: 70%;
+      } 
+
+      .numberOfMovies{
+        margin-right: -1rem;
+      }
+
+    .movieSearchResults{
+        font-size: 70%;
+    }
+
+    .movieNumberBar .movieSearchNumber{
+        width: 60%;
+    }
+
+    .movieInfo{
+        font-size: 70%;
+    }
+}
