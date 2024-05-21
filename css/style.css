@@ -85,14 +85,12 @@ body{
 }
 
 .moviePoster{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
 
 .movieInfo{
     background: yellow;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
 }
