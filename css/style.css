@@ -136,3 +136,23 @@ position: inherit;
     font-size: 1rem;
   }
 }
+
+@media(max-width:768px){
+    .siteTitle{
+        font-size: 0.8rem;
+    }
+
+    .navButton{
+        font-size: 0.45rem;
+        padding: 0.8rem;
+        margin: 0 1rem;
+    }
+
+    .searchInfo{
+        font-size: 1.25rem;
+    }
+
+    .searchBar .movieSearch{
+     width: 70%;   
+    }
+}
