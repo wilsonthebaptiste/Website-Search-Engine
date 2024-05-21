@@ -128,3 +128,11 @@ position: inherit;
     cursor: pointer;
 }
 
+@media(max-width:1024px){
+  .siteTitle {
+    font-size: 1.5rem;
+  }  
+  .navButton {
+    font-size: 1rem;
+  }
+}
