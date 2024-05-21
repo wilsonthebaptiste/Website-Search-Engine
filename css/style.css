@@ -69,6 +69,7 @@ body{
     gap: 1rem;
     border-radius: 0.25rem;
     border: solid 1rem var(--alt-color1);
+    position: relative;
 }
 
 .movieList img{
@@ -81,6 +82,12 @@ body{
 .movieList img:hover{
     opacity: 15%;
     cursor: pointer;
+}
+
+.movieInfo{
+    background: yellow;
+    position: relative;
+    top: 0;
 }
 
 .pageArrows {
