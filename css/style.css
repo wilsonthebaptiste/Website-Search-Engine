@@ -84,10 +84,17 @@ body{
     cursor: pointer;
 }
 
+.moviePoster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .movieInfo{
     background: yellow;
     position: relative;
     top: 0;
+    left: 0;
 }
 
 .pageArrows {
