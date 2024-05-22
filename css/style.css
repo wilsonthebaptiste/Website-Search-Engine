@@ -203,3 +203,48 @@ position: inherit;
         font-size: 70%;
     }
 }
+
+@media(max-width: 320px){
+    .navbar{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .siteTitle{
+      font-size: 150%;  
+    }
+
+    .navButtons{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: .5rem;
+    }
+
+    .navButton{
+        font-size: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0.5rem;
+        display: flex;
+    }
+    
+    .searchInfo{
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;   
+    }
+
+    .searchContainer, .numberOfMovies{
+        margin: auto;
+    }
+    
+    .movieList{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }    
+
+    .movieName, .movieYear{
+        font-size: 200%;
+    }
+}
