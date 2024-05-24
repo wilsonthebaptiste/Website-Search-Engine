@@ -18,3 +18,4 @@ As a mobile user, I want to quickly search for movies on the go for suggestions 
 Possible improvements:
 1. Change the img alt so that it actually displays movie titles instead of "movie poster" as it will be more accessible to blind users.
 2. Add movie IDs as they would be easier to keep track of in a jS array
+3. Users will have to provide their own API key to run project properly. You can obtain this key from this website:https://www.omdbapi.com/apikey.aspx
