@@ -8,7 +8,7 @@ $(document).ready(()=>{
         getPages = (p) => {
         /*alert(userInput)*/
         $.ajax({
-            url: `http://www.omdbapi.com/?apikey=ec5f8eb1&s=${userInput}&page=${p}`,
+            url: `http://www.omdbapi.com/?apikey=********&s=${userInput}&page=${p}`, /*Plug your api key here*/ 
             async: false,   
         })
 
